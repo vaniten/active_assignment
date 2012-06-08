@@ -1,0 +1,191 @@
+/* additional styling for mobile browsers */ 
+/* many styles will require !important declarations.  Especially those for margin and padding. */
+/* Safari won't read stylesheets defined as 'handheld' so add the media query of "only screen and (max-device-width:480px)" */
+/* e.g. <link rel="stylesheet" href="css/handheld.css" media="handheld, only screen and (max-device-width:480px)"/> */
+/* Also be sure to set the viewport size <meta name="viewport" content="width=480"> */
+html { 
+	background: none;
+	
+}
+body { 
+	width: 480px !important; 
+	margin: auto !important; 
+}
+#header { 
+	width: 480px; 
+	margin: auto; 
+	background: url(../images/headerBackground.png) !important;	
+}
+#collage01 { width: 0px !important; }
+#TSLogo a { margin: auto !important; }
+#headerBkg {
+	height: 386px;
+	width: 480px;
+}
+div#mainNav {
+	margin-left: 0;
+	text-align: left;
+	width: 410px;
+	margin: auto !important;
+}
+div.mainMenuOn {
+	display: inline-block;
+	background: url(../images/topNavButtonOn.png) !important;
+}
+#mainNav div {
+	display: inline-block;
+}
+#mainNav div a {
+	display: inline-block;
+}
+#bottomMenu {
+	display: block;
+	height: 170px;
+	width: 480px;
+	text-align: center;
+	font-size: 16px;
+}
+#bottomMenu div {
+	display: inline-block;
+	height: 46px;
+}
+#bottomMenu div a {
+	display: inline-block;
+	color: #fff !important;
+}
+div.subMenuOn { text-shadow: 0 1px #ACACAC; }
+.sub-indicator { display: none; }
+#social-links {
+	display: block;
+	width: 280px;
+	height: 30px;
+	margin: auto !important;
+}
+.social-icon {
+	display: inline-block;
+}
+#g-plusone {
+	display: inline-block;
+	margin: 0 !important;
+	position: relative !important;
+	top: -3px;
+}
+#fb-like-btn {
+	display: inline-block;
+	margin: 0 !important;
+	position: relative !important;
+	top: -6px;
+}
+#bodyDivBkg { width: 400px; padding: 40px; }
+#bodyDiv { 
+	width: 100%;
+}
+.leftColumn {
+	width: 390px;
+	border: none;
+	padding: 0;
+}
+div.col1,div.col2 {
+	width: 390px;
+}
+p {
+	margin: 0 0 50px 0 !important;
+	font-size: 18px !important;
+	line-height: 25px !important;
+}
+.header-icon {
+	float: left !important;
+	margin-right: 20px !important;
+}
+.rightColumn {
+	width: 390px;
+	line-height: 25px;
+}
+.rightColumn h1, .rightColumn .h1, .rightColumn h2, .rightColumn .h2 { 
+	color: black;
+	padding-bottom: 10px !important;
+	margin-bottom: 10px !important;
+	font-weight: bold;
+}
+.cms-logo {
+	margin: 20px 40px !important;
+}
+#footer { 
+	width: 480px; 	
+	line-height: 35px;
+} 
+div.box {
+	padding-right: 10px !important;
+	padding-top: 10px !important;
+	margin-top: 10px !important;
+	padding-bottom: 30px !important;
+}
+.portfolio {
+	display: block !important;
+	margin: auto !important;
+	margin-bottom: 20px !important;
+}
+/* CONTACT FORM START */
+form {
+	margin: 0 0 0 20px !important;
+}
+form h2 {
+	margin-bottom: 15px !important;
+}
+label {
+	display: block !important;
+	float: left !important;
+	width: 70px; 
+	margin-right: 20px !important;
+}
+label.other { 
+	width: 43px; 
+	margin: 0 15px 0 15px !important; 
+	text-align: left;
+	float: left !important;	
+}
+input.textField { width: 250px; }
+input { 
+	display: block !important;
+	margin-bottom: 5px !important;
+	line-height: 13px;
+	font-size: 11px;
+}
+.radio-span {
+	vertical-align: text-top; 
+	height: 20px; 
+	display: block !important; 
+}
+.radio-button, 
+.checkbox {
+	display: inline-block !important;
+	float: left !important;
+	margin: 3px 0 0 0 !important;
+	padding: 0 !important;
+}
+.radio-label {
+	width: 330px;
+	text-align: left;
+	margin-left: 30px !important;
+}
+input#other { 
+	width: 240px; 
+	margin: 3px 0 0 0 !important;
+	float: left !important;
+}
+textarea {
+	margin-left: 0px !important;
+	width: 340px;
+}
+.submit-button {
+	margin: 0 0 20px 120px !important;
+	padding: 5px 15px !important;
+	position: relative !important;
+	top: -30px;
+}
+.submit-button:hover { 
+	margin: 0 0 20px 120px !important;
+	padding: 5px 15px !important;
+	position: relative !important;
+}
+/* CONTACT FORM END */
